@@ -1,0 +1,29 @@
+{
+  "name": "neuromante",
+  "version": "0.0.1",
+  "description": "IRC bot for #picandocodigo on Freenode",
+  "main": "neuromante.js",
+  "dependencies": {
+    "irc": "~0.3.6",
+    "logfmt": "^1.1.2",
+    "express": "^3.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node neuromante.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/picandocodigo/neuromante"
+  },
+  "keywords": [
+    "neuromante",
+    "ircbot"
+  ],
+  "author": "Fernando Briano",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/picandocodigo/neuromante/issues"
+  }
+}
